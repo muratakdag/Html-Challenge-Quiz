@@ -322,7 +322,7 @@ let questions = [
     '30. HTML5 için hangi doküman türü doğrudur?',
     [
       '<pre><code class=html tag start-tag>&lt;!DOCTYPE&ensp;html&gt;</code></pre>',
-      '<pre><code class=html tag start-tag>&lt;!doctype&ensp;HTML&gt;</code></pre>',
+      '<pre><code class=html tag start-tag>&lt;doctype&ensp;HTML&gt;</code></pre>',
       '<pre><code class=html tag start-tag>&lt;DOCTYPE&ensp;HTML&gt;</code></pre>',
       '<pre><code class=html tag start-tag>&lt;!DOCTYPE&gt;</code></pre>',
     ],
@@ -409,7 +409,7 @@ let questions = [
       'HTML, Hiper Metin İşaretleme Dili anlamına gelir ve HTML, işaretleme kullanan Web sayfalarının yapısını tanımlar',
       'HTML öğeleri, HTML sayfalarının yapı taşlarıdır ve HTML öğeleri etiketlerle temsil edilir.',
       "HTML etiketleri, 'heading', 'paragraph' gibi içerik parçalarını etiketler ve Tarayıcılar HTML etiketlerini görüntülemez. ",
-      'hepsi',
+      'Hepsi',
     ],
     'Hepsi'
   ),
