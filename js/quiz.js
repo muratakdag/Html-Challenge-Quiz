@@ -110,6 +110,7 @@ let questions = [
       '<pre><code class=html tag start-tag>&lt;break&gt;&lt/break&gt;</code></pre>',
       '<pre><code class=html tag start-tag>&lt;lb&gt;&lt/lb&gt;</code></pre>',
       '<pre><code class=html tag start-tag>&lt;br&gt;</code></pre>',
+      '<pre><code class=html tag start-tag>&lt;heading&gt;&lt</code></pre>',
     ],
     '<pre><code class=html tag start-tag>&lt;br&gt;</code></pre>'
   ),
