@@ -1,0 +1,203 @@
+html {
+    background: radial-gradient(rgb(33, 81, 85), rgba(11, 55, 58, 1));
+}
+
+body {
+    background: radial-gradient(rgba(11, 55, 58, 1), rgba(33, 81, 85));
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+
+}
+
+.grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 10px 20px 20px 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(37, 95, 95);
+    -webkit-box-shadow: 10px 15px 5px rgb(33, 95, 95);
+    box-shadow: 10px 15px 5px rgb(33, 95, 95);
+}
+
+.quiz {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+
+.header {
+    /* For Safari 5.1 to 6.0 */
+    /* For Opera 11.1 to 12.0 */
+    /* For Firefox 3.6 to 15 */
+    background: radial-gradient(circle, rgba(33, 95, 95, .5) 0%, rgba(33, 95, 95, 1) 100%);
+    width: 870px;
+    height: 100px;
+    border: 2px solid rgb(33, 95, 95);
+    border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.grid h1 {
+    font-family: sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: #A1CACA;
+    text-shadow: 2px 2px 10px rgb(33, 95, 95);
+}
+
+.style_hr {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(33, 95, 95, 0)), color-stop(rgba(37, 95, 95, 0.75)), to(rgba(33, 95, 95, 0)));
+    background-image: linear-gradient(to right, rgba(33, 95, 95, 0), rgba(37, 95, 95, 0.75), rgba(33, 95, 95, 0));
+    border: 0;
+    width: 800px;
+    height: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    overflow: visible;
+    text-align: center;
+}
+
+.style_hr:after {
+    background: rgba(33, 95, 95, 0);
+    display: inline-block;
+    font: "BodoniXT" !important;
+    font-size: 0.9em;
+    width: 800px;
+    padding: 0 0.6em;
+    position: relative;
+    top: -0.7em;
+}
+
+#score {
+    background: radial-gradient(circle, rgba(33, 95, 95, .5) 0%, rgba(37, 95, 95, 1) 100%);
+    text-align: center;
+    font-size: 4em;
+}
+
+p {
+    margin: 10px;
+}
+
+.grid #question {
+    font-family: sans-serif;
+    font-size: 2em;
+    color: rgb(135, 216, 216);
+    text-shadow: 2px 2px 10px rgb(33, 95, 95);
+    border-radius: 5px;
+}
+
+.buttons {
+    margin: 0;
+    padding: 0;
+    width: 800px;
+    height: 550px;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.btn-flex {
+    margin: 0;
+    width: 350px;
+    height: 70px;
+}
+
+#btn0,
+#btn1,
+#btn2,
+#btn3 {
+    background: radial-gradient(circle, rgba(33, 95, 95, .5) 0%, rgba(37, 95, 95, 1) 100%);
+    width: 655px;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1.4em;
+    color: #A1CACA;
+    border: 2px solid rgb(33, 95, 95);
+    border-radius: 10px;
+}
+
+xmp {
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+
+#progress {
+    color: rgb(135, 216, 216);
+    font-size: 18px;
+}
+
+#btn0:hover,
+#btn1:hover,
+#btn2:hover,
+#btn3:hover {
+    cursor: pointer;
+    background-color: #2b2b2b;
+}
+
+#btn0:focus,
+#btn1:focus,
+#btn2:focus,
+#btn3:focus {
+    outline: 0;
+}
