@@ -85,7 +85,7 @@ let questions = [
       'Hyperlinks and Text Markup Language',
       'Hyper Text Markup Language',
       'Home Tool Markup Language',
-      'None of the above',
+      'Hiçbiri',
     ],
     'Hyper Text Markup Language'
   ),
